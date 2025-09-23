@@ -1,0 +1,501 @@
+employee_id,name,gender,age,department,designation,joining_date,salary,bonus,projects_assigned,performance_score,training_completed,promotion_eligible,leaves_taken,remote_work_days,skills
+, EMILY DAVIS ,F,46 years,finance,Manager,01/15/2020,,,"Project B, Project Z",3.3,,Pending,,0,
+114.0,Hannah Martin,female,,Sales;Finance,Manager,15-Jan-2020,,0.17,"Project Y, Project Z",,N/A,No,,,
+103.0,FRANK WILSON,f,46,Operations,Intern,20-May-2019,,0.2,Project C,,Y,,,4 days,Excel;Python
+194.0,IAN CLARK,,,IT;HR,manager,20-May-2019,,,Project B,2.2,Y,Pending,13,2,
+135.0,Bob Johnson,,33,Operations,senior analyst,2019-05-20,51955,,"Project C, Project Z",,No,Pending,,4,"SQL, Tableau"
+131.0,Charlie Brown,male,53,hr,manager,20-May-2019,,20%,Project B,3.2,Yes,Pending,,,"python, excel"
+128.0,Bob Johnson,male,42 years,Sales;HR,manager,05/20/2019,,0.15,Project X,1.9,,No,,,"python, excel"
+117.0,BOB JOHNSON,female,25,Operations,Intern,05/20/2019,,,"Project C, Project Z",2.2,,Pending,17,4,Excel;Python
+194.0,FRANK WILSON,,53,IT,manager,2019-05-20,105778,5%,"Project X, Project Z",,Y,Pending,12,,"SQL, Tableau"
+113.0,John Doe,,,IT,senior analyst,2019-05-20,105085,18%,"Project C, Project D",,,Yes,,,Excel;Python
+186.0, Bob Johnson ,,,hr,senior analyst,15-Jan-2020,,0.12,"Project B, Project Z",4.5,Yes,Yes,11,,"SQL, Tableau"
+194.0,EMILY DAVIS,female,,hr,Sr Analyst,20-May-2019,111830,19%,"Project A, Project D",3.6,N/A,Pending,14,4 days,Excel;Python
+169.0,Frank Wilson,female,50,finance,Jr Analyst,15-Jan-2020,,0.13,Project C,5.0,N/A,,18,2 days,R;PowerBI
+111.0,charlie brown,F,27,Operations,Manager,05/20/2019,40814,10%,Project Y,3.1,,,12,1 days,Excel;Python
+175.0, David Miller ,,36,finance,Jr Analyst,01/15/2020,96269,0.16,Project A,,Y,Pending,,,
+154.0,Bob Johnson,male,,Finance;IT,Intern,15-Jan-2020,,0.14,"Project B, Project D",,Y,Yes,15,,Excel;Python
+104.0, Alice Smith ,F,32 years,HR,manager,2020-01-15,,20%,"Project C, Project D",,Yes,No,,3,R;PowerBI
+103.0,FRANK WILSON,F,,Sales;IT,Sr Analyst,2020-01-15,,0.11,"Project C, Project Z",,Yes,No,10,0 days,
+111.0,John Doe,,,Operations,Sr Analyst,2020-01-15,31861,0.14,"Project C, Project Z",2.3,N/A,No,20,3 days,Excel;Python
+127.0,Grace Lee,f,,IT,Intern,2019-05-20,109144,14%,Project B,3.5,No,Pending,3,1,"SQL, Tableau"
+129.0,Charlie Brown,female,45,Operations;HR,Manager,05/20/2019,107564,0.07,Project B,4.3,N/A,No,,5 days,Excel;Python
+164.0,Charlie Brown,F,50,HR,Manager,2020-01-15,,,Project Y,,No,Yes,18,3 days,
+177.0,Grace Lee,f,,;HR,Jr Analyst,05/20/2019,78466,,Project A,1.7,,Pending,2,,
+103.0, Emily Davis ,,37,Sales,Jr Analyst,15-Jan-2020,64242,0.11,Project C,3.1,Y,No,,1,Excel;Python
+171.0, david miller ,M,38 years,finance;HR,senior analyst,20-May-2019,93559,0.2,Project X,,,Yes,16,1 days,Excel;Python
+125.0,Charlie Brown,f,27,Operations,Jr Analyst,2019-05-20,99125,16%,Project Y,,,No,,2 days,R;PowerBI
+191.0,Charlie Brown,M,,HR,Jr Analyst,2019-05-20,74937,0.09,"Project A, Project D",4.5,No,,,4,
+183.0,JOHN DOE,M,,finance,manager,2020-01-15,49014,7%,"Project X, Project D",4.3,Y,,,,R;PowerBI
+189.0,Charlie Brown,,,hr,Intern,01/15/2020,,14%,"Project X, Project Z",2.3,N/A,Yes,4,,"python, excel"
+169.0,Frank Wilson,M,30,HR;Finance,Sr Analyst,01/15/2020,80222,5%,"Project X, Project D",,Y,Yes,,1,
+153.0,EMILY DAVIS,M,58 years,Sales,Jr Analyst,20-May-2019,,0.15,Project C,1.6,Yes,,,1,R;PowerBI
+128.0,David Miller,female,,,senior analyst,05/20/2019,113568,,Project X,,Y,Yes,,,R;PowerBI
+157.0,ALICE SMITH,F,32 years,hr,Jr Analyst,15-Jan-2020,,0.14,"Project X, Project Z",,Yes,Pending,,,"SQL, Tableau"
+175.0,DAVID MILLER,,,Sales,manager,2020-01-15,,0.14,"Project Y, Project D",1.4,N/A,Pending,10,,R;PowerBI
+135.0,Emily Davis,F,,Sales;IT,Manager,05/20/2019,45203,8%,Project Y,2.8,Yes,,,5 days,
+100.0,HANNAH MARTIN,M,30 years,Finance;IT,manager,15-Jan-2020,,,Project C,,No,Pending,15,2 days,"python, excel"
+197.0,Frank Wilson,,,Finance,senior analyst,05/20/2019,,0.07,"Project A, Project Z",4.8,Y,Yes,,2,"python, excel"
+120.0,hannah martin,F,30,finance;Finance,Manager,01/15/2020,,16%,"Project C, Project Z",3.6,,Yes,,,R;PowerBI
+189.0,Emily Davis,M,31,IT;Finance,Sr Analyst,01/15/2020,99798,20%,Project X,2.2,Yes,Pending,4,5 days,R;PowerBI
+154.0, John Doe ,F,47,HR,senior analyst,2020-01-15,,11%,"Project Y, Project D",4.3,Yes,,5,2 days,"SQL, Tableau"
+143.0, ALICE SMITH ,f,,IT;Finance,senior analyst,01/15/2020,,0.2,Project Y,1.3,N/A,,5,3 days,R;PowerBI
+135.0,David Miller,female,46 years,HR,Intern,01/15/2020,,12%,"Project B, Project Z",,Y,Yes,14,0,
+119.0,BOB JOHNSON,male,27 years,Operations,Jr Analyst,20-May-2019,,0.14,Project Y,,Yes,,,,"python, excel"
+127.0,Ian Clark,M,,hr;HR,senior analyst,20-May-2019,,,Project Y,1.4,N/A,,15,3 days,"SQL, Tableau"
+197.0,David Miller,f,51 years,hr,Intern,01/15/2020,,0.11,Project Y,3.9,Y,,,0,"SQL, Tableau"
+143.0,John Doe,,42,IT,Sr Analyst,2020-01-15,99501,0.15,"Project X, Project Z",,Yes,Yes,,,"python, excel"
+113.0,ALICE SMITH,,,IT,Sr Analyst,2020-01-15,,,Project A,2.5,Yes,No,12,2 days,"SQL, Tableau"
+111.0,Ian Clark,f,,finance;IT,Intern,05/20/2019,,0.08,"Project B, Project Z",4.3,Y,No,9,2 days,R;PowerBI
+148.0,Frank Wilson,female,35 years,Sales,Sr Analyst,01/15/2020,,0.14,Project Y,1.5,No,,,,"python, excel"
+112.0,emily davis,,53 years,hr,senior analyst,01/15/2020,65007,,"Project C, Project D",2.1,Y,No,,4,"SQL, Tableau"
+145.0, EMILY DAVIS ,female,40 years,Sales,manager,2019-05-20,,10%,"Project Y, Project Z",4.2,Y,,,,"python, excel"
+144.0,Frank Wilson,M,57,,senior analyst,05/20/2019,90438,,"Project A, Project D",4.8,,Yes,18,3,Excel;Python
+177.0,ian clark,M,53 years,HR;Finance,Jr Analyst,20-May-2019,118065,,"Project X, Project D",,,Pending,,0,R;PowerBI
+133.0,Hannah Martin,f,25,;HR,Sr Analyst,20-May-2019,,0.13,Project C,4.4,No,Yes,16,5 days,"python, excel"
+105.0,Alice Smith,f,51,Sales,Jr Analyst,2020-01-15,118829,19%,"Project A, Project Z",,Yes,Pending,,4 days,"SQL, Tableau"
+193.0,Frank Wilson,female,50 years,hr,Intern,15-Jan-2020,71060,0.18,"Project Y, Project Z",,Y,Yes,,5 days,Excel;Python
+158.0,IAN CLARK,M,22,Finance,Sr Analyst,15-Jan-2020,118185,15%,"Project X, Project D",,No,Pending,,5 days,R;PowerBI
+168.0, Charlie Brown ,M,30,Operations;HR,Jr Analyst,01/15/2020,38906,0.18,Project B,2.3,No,Pending,,,R;PowerBI
+115.0,DAVID MILLER,f,,hr,Manager,01/15/2020,83903,0.15,Project X,,N/A,No,4,4,
+148.0,john doe,,45,,Manager,05/20/2019,98847,12%,Project X,3.5,,Yes,,,"SQL, Tableau"
+110.0,Frank Wilson,male,45,Operations,Sr Analyst,2019-05-20,,9%,"Project B, Project D",1.1,Yes,Pending,,,R;PowerBI
+170.0,John Doe,f,,Sales,Jr Analyst,2019-05-20,76073,,"Project C, Project Z",,Y,,13,3 days,"SQL, Tableau"
+137.0,Hannah Martin,male,,Finance,senior analyst,2020-01-15,,18%,Project B,,No,,,0,"python, excel"
+180.0, Hannah Martin ,M,27,IT,Intern,05/20/2019,55307,11%,Project C,1.6,Yes,Yes,2,0 days,"SQL, Tableau"
+179.0,CHARLIE BROWN,f,35,HR,manager,15-Jan-2020,33106,0.09,Project Y,,N/A,Yes,9,5,R;PowerBI
+146.0,Emily Davis,,30,Sales,senior analyst,2019-05-20,37455,10%,"Project X, Project D",,Y,,6,4 days,R;PowerBI
+173.0,Frank Wilson,,55,Sales,senior analyst,15-Jan-2020,108562,20%,"Project B, Project Z",3.6,No,Pending,,,R;PowerBI
+124.0,Alice Smith,female,22,finance,manager,05/20/2019,45725,0.1,Project Y,,N/A,,10,0,R;PowerBI
+190.0,Emily Davis,F,30 years,Sales,manager,2019-05-20,109257,0.19,"Project Y, Project Z",3.7,N/A,,,,R;PowerBI
+108.0,Ian Clark,M,36 years,finance,Jr Analyst,20-May-2019,79277,16%,"Project X, Project D",3.0,N/A,Pending,19,,R;PowerBI
+105.0,EMILY DAVIS,M,27,Finance,manager,01/15/2020,44528,,"Project A, Project Z",,Yes,No,,,R;PowerBI
+184.0,Alice Smith,f,45 years,IT;HR,Manager,2019-05-20,,,Project C,,Y,,20,0,R;PowerBI
+129.0, David Miller ,F,30,hr;IT,manager,2019-05-20,91204,,"Project C, Project D",1.5,Y,,11,,"python, excel"
+198.0,Hannah Martin,F,,HR;Finance,Intern,05/20/2019,,13%,"Project X, Project Z",4.6,,No,,2 days,"python, excel"
+137.0,David Miller,F,,Finance,senior analyst,2020-01-15,,0.14,"Project X, Project D",,Y,No,,5,"python, excel"
+110.0,Frank Wilson,f,50 years,Sales,Intern,20-May-2019,,,"Project Y, Project D",,No,Yes,,2,R;PowerBI
+129.0,Emily Davis,f,31 years,finance,Intern,01/15/2020,63729,,Project B,,,Pending,,2 days,"SQL, Tableau"
+112.0,frank wilson,male,50,finance,Intern,20-May-2019,,12%,"Project B, Project Z",,N/A,Pending,8,,
+148.0, DAVID MILLER ,male,28,HR,Sr Analyst,05/20/2019,,9%,Project A,2.4,Y,Yes,2,,"SQL, Tableau"
+135.0,Hannah Martin,male,46 years,Finance,Manager,05/20/2019,,0.12,Project B,,,No,3,5,"SQL, Tableau"
+158.0,Bob Johnson,female,49,Finance,manager,01/15/2020,,0.12,Project X,,No,Pending,8,5 days,"SQL, Tableau"
+181.0,charlie brown,M,,HR,Intern,20-May-2019,64690,0.1,"Project Y, Project Z",4.2,No,Pending,8,3 days,"SQL, Tableau"
+146.0,Frank Wilson,male,,Finance,manager,20-May-2019,87747,0.15,Project A,4.2,Y,,,0,
+120.0,Frank Wilson,female,,Finance;HR,Sr Analyst,2020-01-15,94450,,Project Y,4.1,No,Yes,,4,"SQL, Tableau"
+147.0,bob johnson,female,,Operations,Jr Analyst,15-Jan-2020,,16%,"Project C, Project D",,N/A,Pending,,4,
+145.0,ian clark,f,23,Operations,senior analyst,20-May-2019,,,"Project C, Project D",,,Pending,6,,"python, excel"
+126.0,ian clark,F,,,Sr Analyst,05/20/2019,44212,,"Project X, Project Z",4.3,No,Pending,0,,R;PowerBI
+185.0,David Miller,,47 years,HR,Jr Analyst,01/15/2020,,0.09,"Project X, Project Z",,Y,Pending,6,2,
+134.0,frank wilson,F,37 years,Sales;Finance,senior analyst,01/15/2020,58624,,"Project B, Project D",,Y,Yes,19,,R;PowerBI
+189.0,HANNAH MARTIN,male,46,Operations,Intern,2020-01-15,,,"Project C, Project D",5.0,Yes,Yes,4,0,"python, excel"
+187.0,John Doe,,53,IT;HR,manager,15-Jan-2020,43538,8%,Project C,,Y,Pending,15,,"python, excel"
+182.0,DAVID MILLER,M,22 years,hr,Jr Analyst,01/15/2020,39557,0.11,"Project X, Project D",,,Pending,10,4 days,"SQL, Tableau"
+109.0, david miller ,,30 years,HR,Sr Analyst,2020-01-15,,13%,Project A,,N/A,Pending,1,4,R;PowerBI
+177.0,charlie brown,,48 years,IT;IT,Manager,01/15/2020,88442,14%,Project B,,,No,,5 days,"SQL, Tableau"
+181.0, FRANK WILSON ,M,33 years,finance,Intern,2019-05-20,95234,,"Project X, Project Z",1.6,No,,,3 days,R;PowerBI
+121.0,IAN CLARK,M,,Finance,Sr Analyst,05/20/2019,115572,0.17,"Project B, Project D",,N/A,,,,Excel;Python
+168.0,Ian Clark,female,22 years,hr;HR,Sr Analyst,20-May-2019,,0.17,"Project Y, Project Z",,N/A,Yes,16,2,
+193.0,emily davis,female,35,IT;IT,Manager,15-Jan-2020,64922,0.16,Project A,3.1,Yes,,,4 days,R;PowerBI
+131.0,Grace Lee,female,54 years,Operations;IT,Intern,20-May-2019,,18%,"Project X, Project D",,No,Yes,,,"python, excel"
+120.0,Grace Lee,f,48 years,HR,Jr Analyst,20-May-2019,105319,,"Project C, Project Z",3.1,,,,5,
+159.0, grace lee ,female,,,Intern,2019-05-20,,,"Project B, Project D",3.8,N/A,Yes,,4 days,R;PowerBI
+148.0,charlie brown,M,,Finance;IT,Intern,15-Jan-2020,,15%,"Project Y, Project D",2.4,Y,Pending,16,4 days,Excel;Python
+134.0,Hannah Martin,,31,Operations;HR,Jr Analyst,20-May-2019,82941,6%,Project Y,5.0,,,19,0,"SQL, Tableau"
+181.0,GRACE LEE,M,,,Sr Analyst,2020-01-15,100795,19%,"Project A, Project Z",,Y,No,,2,"SQL, Tableau"
+188.0,Bob Johnson,,,hr;HR,Sr Analyst,01/15/2020,,,"Project X, Project D",4.8,N/A,,,,"python, excel"
+171.0,alice smith,F,,Sales;HR,Jr Analyst,05/20/2019,93185,14%,Project A,,Y,Yes,,,
+128.0,David Miller,M,,Finance,Intern,01/15/2020,,,Project B,2.4,N/A,Yes,,,"SQL, Tableau"
+187.0, HANNAH MARTIN ,female,49,hr,Manager,05/20/2019,,,Project C,2.2,N/A,Pending,,4 days,R;PowerBI
+141.0,Ian Clark,female,27 years,hr,senior analyst,2020-01-15,82509,0.17,"Project B, Project Z",,N/A,Pending,,5,
+198.0,emily davis,,,Operations,Manager,01/15/2020,112873,,Project A,2.0,N/A,Yes,5,1,R;PowerBI
+199.0, Alice Smith ,male,25 years,IT,manager,2019-05-20,,,Project C,1.2,N/A,,,2,"SQL, Tableau"
+107.0, charlie brown ,f,33,hr,Intern,2020-01-15,,15%,"Project A, Project D",1.5,Yes,No,,,R;PowerBI
+129.0,David Miller,M,30,finance;Finance,Sr Analyst,2019-05-20,68005,7%,Project B,2.5,,Pending,6,,Excel;Python
+104.0,Charlie Brown,f,,Sales,Jr Analyst,15-Jan-2020,53149,,"Project A, Project D",,Yes,Pending,,0 days,"SQL, Tableau"
+140.0,Charlie Brown,M,55,finance;Finance,Manager,01/15/2020,80353,12%,"Project C, Project D",2.5,N/A,Pending,5,,R;PowerBI
+151.0,Bob Johnson,F,,IT,manager,2019-05-20,,0.19,"Project Y, Project Z",3.7,Yes,,,1 days,
+134.0,John Doe,F,39,hr,manager,01/15/2020,,11%,"Project X, Project D",2.9,No,No,11,3 days,"SQL, Tableau"
+108.0,John Doe,,49 years,,Sr Analyst,15-Jan-2020,93766,0.11,"Project A, Project D",,,No,,1 days,"python, excel"
+127.0,Charlie Brown,f,26 years,Operations,senior analyst,20-May-2019,,0.07,"Project A, Project Z",1.6,Y,No,10,1 days,
+172.0, Grace Lee ,female,26 years,Finance;HR,senior analyst,01/15/2020,54833,10%,"Project A, Project Z",,No,No,,0,"SQL, Tableau"
+,IAN CLARK,male,54 years,Finance,manager,15-Jan-2020,34679,0.16,"Project B, Project Z",1.6,,Yes,16,,R;PowerBI
+140.0,ALICE SMITH,M,,IT,Manager,2020-01-15,33324,0.17,"Project Y, Project D",2.9,,No,,1,
+127.0,grace lee,M,32,Sales;HR,manager,01/15/2020,,8%,"Project B, Project Z",,Y,Yes,,3 days,"SQL, Tableau"
+183.0,FRANK WILSON,,,Finance,Intern,2020-01-15,,0.19,Project A,,No,Yes,,1 days,"SQL, Tableau"
+163.0,Ian Clark,male,,HR,Sr Analyst,15-Jan-2020,,0.16,"Project Y, Project D",2.8,,No,12,4,R;PowerBI
+150.0,Charlie Brown,f,54,HR,Sr Analyst,2020-01-15,32151,9%,"Project Y, Project Z",2.1,,,,,"python, excel"
+182.0,frank wilson,f,22,finance,senior analyst,2019-05-20,74470,0.2,"Project B, Project Z",1.2,,Pending,20,5,R;PowerBI
+158.0,Grace Lee,,45 years,Sales,manager,20-May-2019,74265,0.11,"Project X, Project D",3.4,Y,Yes,18,1,"SQL, Tableau"
+118.0,Frank Wilson,M,31,Operations,Jr Analyst,2020-01-15,83150,0.05,Project Y,3.0,Yes,No,,,"SQL, Tableau"
+133.0,charlie brown,F,57,,Jr Analyst,2019-05-20,,12%,"Project X, Project D",,N/A,Yes,15,5 days,R;PowerBI
+117.0,bob johnson,male,37 years,IT,Manager,20-May-2019,118877,,Project Y,,No,Pending,15,3,"python, excel"
+131.0,John Doe,M,42,Sales,Manager,15-Jan-2020,105936,0.06,"Project A, Project D",,N/A,Pending,,4 days,
+195.0,Alice Smith,F,58,Operations;HR,Intern,15-Jan-2020,39441,,"Project C, Project Z",,Yes,Yes,0,,
+171.0,Frank Wilson,f,54,Finance,senior analyst,01/15/2020,,,Project B,,N/A,Pending,5,0,
+168.0,Charlie Brown,F,36,HR,Sr Analyst,2019-05-20,115699,,"Project A, Project Z",,,Yes,,3 days,Excel;Python
+133.0,BOB JOHNSON,,26 years,IT,Jr Analyst,05/20/2019,91763,,"Project C, Project Z",,N/A,No,3,0 days,Excel;Python
+195.0, Hannah Martin ,female,41 years,IT,Intern,20-May-2019,61808,6%,Project B,4.9,Yes,Pending,14,2,Excel;Python
+174.0,Grace Lee,M,57 years,IT,Jr Analyst,01/15/2020,31882,,Project B,,Yes,Yes,10,5 days,Excel;Python
+154.0,John Doe,male,22,IT,Jr Analyst,01/15/2020,112924,,Project Y,3.5,Yes,Yes,,1,Excel;Python
+174.0,hannah martin,F,58 years,,Intern,15-Jan-2020,70283,0.1,Project X,2.6,Y,,6,5 days,Excel;Python
+151.0,CHARLIE BROWN,f,51 years,HR;Finance,Jr Analyst,2020-01-15,89793,,"Project C, Project Z",,Yes,Yes,,0 days,Excel;Python
+146.0,ALICE SMITH,F,59,Sales;Finance,senior analyst,20-May-2019,107469,0.14,Project A,,Y,Yes,,5 days,"python, excel"
+128.0,Grace Lee,f,56,Sales;IT,manager,05/20/2019,43937,0.13,Project X,4.3,,No,16,0,Excel;Python
+117.0,bob johnson,female,22,hr,Jr Analyst,15-Jan-2020,95161,0.07,Project C,,Yes,No,,1,"python, excel"
+165.0, GRACE LEE ,,56 years,,Sr Analyst,15-Jan-2020,38271,18%,Project B,3.6,Y,Pending,1,1,"python, excel"
+163.0,Hannah Martin,f,22,HR,Intern,05/20/2019,,15%,"Project C, Project D",2.1,,Pending,6,5 days,"SQL, Tableau"
+111.0,Hannah Martin,male,46,hr;HR,Jr Analyst,2020-01-15,,0.18,"Project Y, Project D",,N/A,,8,,"SQL, Tableau"
+196.0,IAN CLARK,female,35,Operations,Manager,2019-05-20,72498,0.19,Project B,,Y,Yes,,,"SQL, Tableau"
+106.0, Emily Davis ,,48,Operations,Sr Analyst,2019-05-20,119664,0.14,Project X,1.7,Yes,,,,"python, excel"
+114.0,grace lee,F,31,IT,manager,05/20/2019,72151,15%,"Project B, Project D",1.3,Yes,Pending,19,1 days,Excel;Python
+119.0, ian clark ,,,finance,Jr Analyst,20-May-2019,35975,0.16,Project A,,,No,,,"python, excel"
+180.0,Hannah Martin,,45 years,Finance,senior analyst,2020-01-15,73975,,Project A,1.8,,Yes,5,,
+120.0, Frank Wilson ,M,27,finance,senior analyst,2020-01-15,,19%,Project A,3.6,Yes,Pending,,1,"python, excel"
+187.0, Hannah Martin ,f,,Sales,Jr Analyst,01/15/2020,,6%,Project B,2.0,No,Pending,,0 days,
+154.0,GRACE LEE,,,hr,Manager,2020-01-15,,,"Project B, Project D",4.9,,Pending,,2 days,R;PowerBI
+176.0, bob johnson ,male,25 years,hr,Intern,05/20/2019,102536,0.12,Project B,,No,,14,2 days,R;PowerBI
+108.0,Grace Lee,M,37 years,,senior analyst,20-May-2019,87496,,Project X,,,Pending,,4,"python, excel"
+149.0,grace lee,M,42 years,HR,Sr Analyst,2020-01-15,106282,20%,"Project C, Project D",,N/A,,2,0,"SQL, Tableau"
+148.0,David Miller,female,42 years,IT,Intern,01/15/2020,47481,9%,"Project B, Project D",,No,Pending,2,,"python, excel"
+176.0,Charlie Brown,F,39,Sales;HR,Manager,2019-05-20,,11%,"Project C, Project Z",,No,Yes,2,1,"python, excel"
+159.0,DAVID MILLER,M,,Operations;IT,manager,2020-01-15,50677,0.16,"Project B, Project Z",,No,No,10,,Excel;Python
+167.0,Hannah Martin,male,28,IT,Intern,2020-01-15,93827,11%,Project A,,Y,Pending,5,5,
+132.0, Grace Lee ,f,50 years,Finance,manager,20-May-2019,30832,10%,"Project C, Project D",4.9,Y,Yes,,1,"SQL, Tableau"
+170.0, charlie brown ,f,42,finance,Intern,05/20/2019,53516,,"Project X, Project Z",2.3,Yes,Pending,14,2,"SQL, Tableau"
+101.0,DAVID MILLER,f,56,Finance,Intern,05/20/2019,,8%,Project B,3.0,N/A,No,,3,"SQL, Tableau"
+187.0,Grace Lee,female,41 years,,senior analyst,01/15/2020,,,"Project X, Project Z",,,Yes,20,3 days,R;PowerBI
+192.0,Alice Smith,male,38,IT,Manager,2020-01-15,46632,,Project X,2.9,No,Yes,,4,Excel;Python
+114.0,david miller,M,,finance;IT,senior analyst,20-May-2019,,8%,Project C,2.2,Yes,No,,4,
+187.0,charlie brown,,60,IT,manager,01/15/2020,,,Project B,3.7,Yes,Pending,9,3 days,
+168.0, DAVID MILLER ,male,42,IT;HR,senior analyst,05/20/2019,84005,0.12,"Project B, Project Z",4.5,Yes,Pending,8,1 days,R;PowerBI
+196.0,emily davis,female,44 years,HR,Manager,15-Jan-2020,52878,5%,"Project C, Project Z",4.8,No,No,,4 days,"SQL, Tableau"
+134.0,emily davis,female,,IT;Finance,Jr Analyst,01/15/2020,108154,,Project Y,4.5,,,13,,
+198.0,HANNAH MARTIN,F,41,IT,manager,15-Jan-2020,95521,9%,"Project A, Project Z",4.1,Yes,Yes,,3 days,
+182.0,Alice Smith,male,47 years,finance,Jr Analyst,15-Jan-2020,,14%,"Project B, Project D",,,No,6,5,R;PowerBI
+143.0,BOB JOHNSON,f,57,HR,Manager,01/15/2020,,,"Project A, Project Z",2.8,Yes,,,,"python, excel"
+114.0,bob johnson,female,28,Operations,manager,01/15/2020,30599,0.06,"Project X, Project Z",,No,Yes,,1,"SQL, Tableau"
+137.0,charlie brown,female,30,Sales,senior analyst,20-May-2019,55153,0.09,Project X,,No,Yes,,,Excel;Python
+155.0,FRANK WILSON,F,25,,senior analyst,01/15/2020,99494,7%,"Project C, Project Z",,Yes,No,,5 days,"SQL, Tableau"
+120.0, BOB JOHNSON ,,47 years,IT;Finance,Intern,2019-05-20,,0.11,"Project Y, Project D",2.0,N/A,,,2,R;PowerBI
+158.0,CHARLIE BROWN,f,,IT,senior analyst,05/20/2019,100742,,"Project A, Project D",,Yes,Yes,20,1 days,Excel;Python
+100.0,alice smith,,38,IT,manager,2020-01-15,90845,0.07,Project B,1.4,,Yes,,,Excel;Python
+192.0,FRANK WILSON,female,,Operations;HR,manager,01/15/2020,66231,0.16,Project C,,N/A,,4,,"SQL, Tableau"
+192.0,frank wilson,M,50,hr,Intern,15-Jan-2020,55391,9%,Project C,3.2,N/A,,,,R;PowerBI
+133.0,emily davis,f,43,Finance;Finance,senior analyst,15-Jan-2020,,0.13,Project X,,Yes,Pending,,,R;PowerBI
+164.0,HANNAH MARTIN,male,51,IT;IT,senior analyst,01/15/2020,95210,0.18,Project C,,Yes,Pending,,1 days,R;PowerBI
+197.0,Grace Lee,F,,finance,Jr Analyst,2020-01-15,50940,0.13,Project X,,Y,No,,,R;PowerBI
+122.0,Frank Wilson,,47,Finance;HR,Intern,2020-01-15,,0.16,"Project B, Project D",,N/A,Pending,2,,"SQL, Tableau"
+164.0,John Doe,M,46,HR,Intern,20-May-2019,67363,0.12,Project C,1.4,N/A,No,8,5 days,Excel;Python
+113.0,CHARLIE BROWN,M,44,Finance;HR,manager,20-May-2019,,0.06,Project A,,No,Pending,,5,
+180.0,Frank Wilson,male,39 years,IT,senior analyst,20-May-2019,,,"Project B, Project Z",,No,No,1,1,"python, excel"
+138.0,FRANK WILSON,F,,HR,Manager,2020-01-15,35677,,"Project B, Project D",,,Pending,16,5,R;PowerBI
+181.0,Ian Clark,female,40 years,finance,senior analyst,15-Jan-2020,36875,0.09,"Project A, Project D",3.6,Y,No,15,3 days,
+164.0, John Doe ,,57 years,hr,Intern,20-May-2019,50715,0.19,"Project X, Project D",,,,,4 days,
+177.0,ian clark,,27 years,finance;Finance,manager,01/15/2020,93577,14%,Project Y,,N/A,Pending,,3,"SQL, Tableau"
+125.0,Frank Wilson,F,30 years,finance,senior analyst,20-May-2019,39287,,"Project X, Project Z",2.6,,Yes,18,4 days,R;PowerBI
+119.0,Grace Lee,,34,Finance,Jr Analyst,01/15/2020,,18%,Project C,,Yes,No,10,1 days,Excel;Python
+147.0,john doe,female,23 years,Operations,Sr Analyst,01/15/2020,84927,,Project Y,,N/A,,,,R;PowerBI
+197.0,EMILY DAVIS,male,,Sales,manager,15-Jan-2020,,0.13,Project X,,No,,0,,
+120.0,david miller,male,,Finance;HR,manager,05/20/2019,60154,,Project X,4.5,Yes,Pending,,,"python, excel"
+169.0,FRANK WILSON,M,42 years,finance;IT,Intern,01/15/2020,72746,,"Project A, Project Z",3.5,No,Yes,,2,"python, excel"
+199.0,Frank Wilson,M,39,HR,Sr Analyst,20-May-2019,42853,7%,"Project B, Project D",4.0,No,Pending,20,2 days,Excel;Python
+167.0,Hannah Martin,M,42,Finance,senior analyst,15-Jan-2020,84079,0.16,Project X,3.8,No,Yes,,,"python, excel"
+100.0,Hannah Martin,male,23,finance,Jr Analyst,15-Jan-2020,79221,0.17,Project A,1.6,No,Pending,9,5 days,Excel;Python
+176.0,ian clark,female,55 years,hr,senior analyst,2020-01-15,,,"Project X, Project D",2.2,,,14,4,"SQL, Tableau"
+141.0,Charlie Brown,male,59,Finance;HR,Intern,01/15/2020,,,Project X,3.3,,No,,,"SQL, Tableau"
+162.0,Grace Lee,male,,Operations;HR,Sr Analyst,20-May-2019,,0.16,Project C,,No,,,0,
+102.0,charlie brown,M,,finance,Jr Analyst,01/15/2020,48997,13%,"Project B, Project D",,N/A,,,1 days,"python, excel"
+114.0,david miller,F,,Operations,Manager,20-May-2019,,,"Project B, Project D",,N/A,No,,,R;PowerBI
+146.0,Frank Wilson,M,46,finance,Manager,2019-05-20,,13%,Project Y,1.4,Y,No,,5,"SQL, Tableau"
+139.0,grace lee,F,,finance,Jr Analyst,2020-01-15,78953,18%,Project X,,Y,No,,2 days,Excel;Python
+130.0, John Doe ,female,,;HR,Manager,15-Jan-2020,89996,17%,"Project B, Project D",4.1,Yes,,,3,"SQL, Tableau"
+107.0,frank wilson,female,,;Finance,Intern,2020-01-15,,0.12,Project B,2.6,,No,9,1 days,"python, excel"
+130.0,emily davis,f,,hr,Intern,2019-05-20,65349,,"Project B, Project Z",,N/A,Pending,7,4,"python, excel"
+172.0,frank wilson,f,,finance,Intern,05/20/2019,74025,,Project X,,Y,Pending,,5,Excel;Python
+110.0,BOB JOHNSON,f,33 years,Finance,Jr Analyst,2020-01-15,34206,17%,"Project Y, Project D",,Y,Pending,,,"python, excel"
+110.0,Grace Lee,female,24,,senior analyst,2020-01-15,66779,9%,"Project A, Project Z",1.2,N/A,Pending,18,,
+193.0,Bob Johnson,M,36,IT;HR,senior analyst,2019-05-20,,,"Project A, Project Z",4.8,N/A,Yes,5,,R;PowerBI
+162.0, Ian Clark ,M,55 years,finance,Sr Analyst,2020-01-15,,11%,Project A,,Yes,Yes,9,,Excel;Python
+108.0,HANNAH MARTIN,M,,HR;HR,senior analyst,2020-01-15,,,"Project X, Project D",,N/A,,18,2,
+197.0,John Doe,male,30 years,HR,senior analyst,2019-05-20,,,"Project A, Project D",,N/A,,,5,
+168.0, Frank Wilson ,f,33,IT,Sr Analyst,2019-05-20,109119,0.06,Project Y,,N/A,No,1,2,R;PowerBI
+198.0,Ian Clark,M,,finance;Finance,manager,15-Jan-2020,113623,9%,"Project A, Project D",1.9,No,,9,,"SQL, Tableau"
+116.0, Ian Clark ,f,,Sales,manager,05/20/2019,105775,8%,Project X,,Yes,No,,5,"python, excel"
+116.0,john doe,f,26 years,HR,Jr Analyst,20-May-2019,,0.19,Project C,2.1,Y,No,12,,"python, excel"
+184.0,alice smith,male,47,finance,manager,20-May-2019,,,Project X,1.3,N/A,,14,4,"SQL, Tableau"
+160.0,FRANK WILSON,female,41 years,Operations,manager,05/20/2019,,,"Project Y, Project Z",2.1,Yes,Yes,4,0 days,
+170.0,Bob Johnson,M,,HR,manager,05/20/2019,,17%,Project C,,,No,,,"python, excel"
+121.0,Grace Lee,male,,IT,senior analyst,05/20/2019,,,Project B,4.5,N/A,Yes,9,3 days,
+133.0,Bob Johnson,female,,;HR,manager,2019-05-20,62329,0.2,"Project X, Project D",,Yes,,5,,Excel;Python
+167.0, John Doe ,female,57,Operations;HR,senior analyst,20-May-2019,,0.06,Project C,1.7,,Pending,,2,R;PowerBI
+177.0,David Miller,M,33 years,Sales,senior analyst,01/15/2020,105951,,"Project A, Project Z",,Y,,2,,"python, excel"
+154.0,FRANK WILSON,,41,HR,Intern,01/15/2020,107564,20%,"Project B, Project D",,Yes,Yes,,5,"SQL, Tableau"
+127.0,Emily Davis,f,,HR,Sr Analyst,01/15/2020,105196,0.11,"Project Y, Project D",,,No,,,Excel;Python
+169.0,CHARLIE BROWN,F,,Finance,Jr Analyst,15-Jan-2020,84758,,"Project C, Project Z",,N/A,Yes,,0 days,"SQL, Tableau"
+196.0, GRACE LEE ,f,,finance,Sr Analyst,05/20/2019,,18%,"Project Y, Project D",2.9,Yes,,,1 days,"python, excel"
+193.0,Emily Davis,f,,finance,Intern,05/20/2019,96088,,Project A,,Y,Yes,,1 days,"python, excel"
+188.0,emily davis,F,28 years,Sales,Manager,20-May-2019,,0.12,"Project C, Project Z",,No,No,,5 days,R;PowerBI
+125.0,Frank Wilson,,,Finance,senior analyst,2020-01-15,92818,,Project A,4.3,N/A,Yes,,3,R;PowerBI
+191.0,david miller,female,37 years,Operations,manager,2019-05-20,,0.12,Project C,1.3,N/A,No,7,1,"python, excel"
+139.0,frank wilson,F,,hr,manager,20-May-2019,61524,,Project B,,Y,,12,1,Excel;Python
+, david miller ,F,43 years,Operations;IT,Manager,15-Jan-2020,103202,,Project X,,Yes,,10,,"python, excel"
+185.0,Alice Smith,male,22,,Intern,2020-01-15,83296,0.07,"Project A, Project Z",,No,Pending,,,R;PowerBI
+183.0, Grace Lee ,male,26 years,HR;Finance,Intern,05/20/2019,,,Project A,4.5,Y,No,,1 days,Excel;Python
+147.0,John Doe,male,,Finance,Jr Analyst,2019-05-20,68769,16%,Project C,,,,,5 days,"python, excel"
+156.0,HANNAH MARTIN,female,25 years,Operations,senior analyst,2020-01-15,114887,,Project B,2.1,,No,17,,
+166.0,JOHN DOE,F,50,Finance,Manager,2019-05-20,,7%,Project Y,5.0,No,Pending,,4 days,Excel;Python
+157.0,EMILY DAVIS,M,53 years,Operations,Manager,01/15/2020,,,"Project Y, Project Z",3.5,Y,Yes,18,,"SQL, Tableau"
+115.0,Charlie Brown,F,56 years,Operations,Manager,05/20/2019,,0.07,"Project A, Project Z",1.1,,Pending,7,4,
+131.0,ALICE SMITH,female,,finance,senior analyst,05/20/2019,104760,20%,Project B,2.7,N/A,Pending,,3 days,Excel;Python
+128.0,John Doe,male,32 years,Sales,senior analyst,05/20/2019,,0.2,"Project A, Project D",3.4,,Yes,,,
+108.0,john doe,female,24 years,,senior analyst,2019-05-20,,13%,"Project B, Project D",2.4,Yes,Yes,16,4,Excel;Python
+143.0, charlie brown ,male,42 years,HR,senior analyst,2019-05-20,,,"Project A, Project D",4.9,No,Yes,,5 days,"python, excel"
+102.0,charlie brown,female,26 years,Operations;HR,Sr Analyst,15-Jan-2020,,0.17,Project B,,No,Pending,2,0 days,R;PowerBI
+175.0, John Doe ,M,32,Sales,Manager,15-Jan-2020,113021,18%,Project C,,Y,,,,"SQL, Tableau"
+170.0,ian clark,male,26,Sales,Sr Analyst,15-Jan-2020,112222,0.13,"Project C, Project Z",3.0,,,6,,R;PowerBI
+129.0,Bob Johnson,male,,finance,Jr Analyst,20-May-2019,,0.2,Project X,,Y,,,,R;PowerBI
+175.0,CHARLIE BROWN,F,23 years,HR,Manager,01/15/2020,99588,,Project A,,N/A,,13,3,R;PowerBI
+128.0,bob johnson,,60 years,Operations;IT,senior analyst,01/15/2020,,,Project Y,,No,Pending,,4,Excel;Python
+100.0,GRACE LEE,,32,finance,Intern,2019-05-20,65361,0.16,"Project X, Project Z",,Y,,20,,"python, excel"
+109.0,ALICE SMITH,female,43,hr;IT,Intern,15-Jan-2020,119740,19%,Project B,1.5,Y,No,13,,R;PowerBI
+190.0,ian clark,f,,,senior analyst,05/20/2019,,,"Project Y, Project Z",,N/A,No,,5 days,"python, excel"
+180.0,charlie brown,f,,Sales,senior analyst,05/20/2019,,8%,Project X,1.7,Yes,Yes,,,"python, excel"
+107.0, Grace Lee ,F,40,Operations;HR,Sr Analyst,01/15/2020,36758,8%,Project X,,N/A,No,,,
+129.0, David Miller ,female,25 years,Sales,senior analyst,01/15/2020,,11%,Project Y,,N/A,Yes,13,2 days,R;PowerBI
+108.0, emily davis ,M,57 years,Sales;IT,Manager,2019-05-20,90994,,Project X,3.5,N/A,Pending,,4 days,R;PowerBI
+104.0,bob johnson,F,25 years,Operations;IT,manager,2019-05-20,,20%,"Project B, Project Z",5.0,,,16,5 days,"python, excel"
+142.0,IAN CLARK,male,22,Sales,Manager,2020-01-15,52972,0.15,"Project A, Project Z",1.4,No,,14,2,"SQL, Tableau"
+109.0, Ian Clark ,M,60 years,hr;IT,Intern,2020-01-15,103499,9%,Project Y,,,Pending,11,5 days,"python, excel"
+165.0,Alice Smith,female,34,Finance,Jr Analyst,2019-05-20,,19%,Project A,1.4,,,,4 days,"python, excel"
+130.0,Bob Johnson,male,,,Manager,2020-01-15,61278,0.18,Project B,3.5,,No,0,4 days,
+135.0,DAVID MILLER,f,27 years,HR,senior analyst,01/15/2020,,15%,Project X,,Y,Pending,10,5,"SQL, Tableau"
+185.0,ALICE SMITH,female,41 years,hr,Manager,2019-05-20,106037,,"Project A, Project D",,No,Yes,,,R;PowerBI
+162.0, Ian Clark ,male,,,Manager,2019-05-20,,,Project X,3.2,Y,No,14,4 days,"python, excel"
+127.0,John Doe,female,,Operations,Sr Analyst,15-Jan-2020,,,Project C,,,Pending,,,"python, excel"
+169.0,david miller,male,56,Operations,manager,01/15/2020,,18%,Project B,,,,13,,Excel;Python
+116.0,ian clark,female,46 years,IT;Finance,Intern,01/15/2020,66325,0.11,Project Y,,Y,Pending,,,R;PowerBI
+192.0,Frank Wilson,,33,,Manager,20-May-2019,,,"Project A, Project Z",,,Yes,8,0,Excel;Python
+173.0, Frank Wilson ,f,50 years,HR,Intern,20-May-2019,,0.19,"Project C, Project Z",,,,,1 days,"python, excel"
+173.0,Charlie Brown,F,36 years,finance,Jr Analyst,15-Jan-2020,93730,,"Project B, Project Z",,N/A,Pending,,,
+160.0, ALICE SMITH ,male,58,IT,Manager,20-May-2019,,0.06,Project B,,Yes,Pending,,3 days,Excel;Python
+131.0, ian clark ,male,,Finance,manager,2020-01-15,,17%,Project B,,Yes,,,5,Excel;Python
+200.0,Charlie Brown,f,56 years,,Intern,2019-05-20,118251,18%,Project A,3.7,Yes,Pending,3,5 days,"SQL, Tableau"
+160.0,Alice Smith,,,HR;IT,manager,05/20/2019,,9%,Project C,,No,No,,,Excel;Python
+152.0,David Miller,F,,finance,manager,2020-01-15,41443,,"Project A, Project Z",1.1,No,No,2,,"SQL, Tableau"
+124.0,IAN CLARK,female,,hr,manager,01/15/2020,81207,0.16,"Project B, Project Z",,Yes,Yes,,,Excel;Python
+112.0,ALICE SMITH,male,52,Operations;Finance,manager,20-May-2019,67797,0.05,Project A,,Yes,No,,,"SQL, Tableau"
+112.0,IAN CLARK,F,52,Sales;HR,Intern,05/20/2019,44334,0.16,"Project C, Project D",,N/A,,,,"python, excel"
+184.0,John Doe,female,,hr,Intern,2020-01-15,66168,,Project B,,N/A,Pending,13,0 days,Excel;Python
+155.0,emily davis,male,,,Sr Analyst,01/15/2020,,,Project A,,Y,Pending,,,"SQL, Tableau"
+145.0, Hannah Martin ,male,29 years,finance,manager,20-May-2019,49726,0.17,Project B,,No,Yes,1,2 days,
+154.0,Frank Wilson,,33,hr,Sr Analyst,2019-05-20,98247,0.06,"Project X, Project D",,No,Pending,,2 days,"SQL, Tableau"
+152.0,Emily Davis,,34,finance;IT,Manager,2019-05-20,,,Project A,4.9,Yes,Pending,11,2 days,Excel;Python
+159.0, Alice Smith ,,,IT,Manager,20-May-2019,119443,,"Project C, Project Z",,No,No,,2 days,Excel;Python
+193.0, Hannah Martin ,female,,Sales,Sr Analyst,2019-05-20,,,Project C,,N/A,Yes,,5 days,Excel;Python
+106.0,emily davis,f,60 years,Operations,senior analyst,15-Jan-2020,,,"Project X, Project Z",1.9,N/A,Pending,,,Excel;Python
+186.0,JOHN DOE,F,42,finance,manager,20-May-2019,114500,,Project C,,Yes,Pending,,5 days,"python, excel"
+183.0,Frank Wilson,male,57 years,Sales;HR,manager,15-Jan-2020,68209,0.09,Project B,,Yes,,,3 days,
+182.0,GRACE LEE,female,42 years,IT,Manager,20-May-2019,38250,18%,"Project Y, Project D",4.3,,,,1,Excel;Python
+112.0,ALICE SMITH,male,55,HR;Finance,Intern,15-Jan-2020,,0.18,Project C,4.8,Y,No,,,"SQL, Tableau"
+107.0,Frank Wilson,female,55 years,IT,Sr Analyst,2019-05-20,,,Project Y,1.4,Yes,No,,4,
+151.0, emily davis ,male,29,hr,manager,2019-05-20,,,Project A,2.7,Yes,Pending,20,2,R;PowerBI
+193.0,grace lee,M,,Operations;HR,Manager,2020-01-15,,5%,"Project C, Project D",1.1,Yes,Pending,19,,"python, excel"
+143.0,Bob Johnson,f,59,HR,manager,01/15/2020,,0.1,"Project Y, Project Z",3.3,N/A,Yes,11,,Excel;Python
+113.0,Frank Wilson,F,28 years,IT;Finance,Intern,15-Jan-2020,104350,,Project C,4.0,Y,No,,3,
+131.0,Bob Johnson,f,44 years,,Sr Analyst,05/20/2019,70172,,"Project B, Project D",,,Pending,7,1 days,Excel;Python
+124.0, Hannah Martin ,f,,Finance,senior analyst,20-May-2019,64079,0.17,"Project A, Project D",1.7,Yes,No,2,3 days,Excel;Python
+124.0, David Miller ,F,,hr;Finance,Jr Analyst,2019-05-20,,,"Project B, Project Z",2.2,No,Yes,4,3 days,"SQL, Tableau"
+168.0,Ian Clark,,52,Operations,Manager,2019-05-20,67767,18%,Project B,,Y,No,,1 days,"SQL, Tableau"
+157.0,hannah martin,f,39,finance;HR,Manager,20-May-2019,,7%,"Project A, Project Z",4.1,Yes,No,,0,Excel;Python
+117.0,GRACE LEE,M,60,Sales,Jr Analyst,01/15/2020,,20%,Project B,2.1,N/A,Yes,,,"SQL, Tableau"
+154.0,GRACE LEE,,,IT,Jr Analyst,20-May-2019,51805,0.15,Project A,3.5,N/A,Yes,19,,Excel;Python
+123.0,Frank Wilson,female,,Operations,Manager,05/20/2019,,,Project C,1.4,No,No,,,Excel;Python
+135.0,Ian Clark,,39 years,,senior analyst,15-Jan-2020,53891,0.15,Project B,,,Yes,1,,Excel;Python
+159.0,DAVID MILLER,F,43 years,,Manager,15-Jan-2020,117340,0.16,"Project X, Project D",2.0,,,,5,R;PowerBI
+131.0,EMILY DAVIS,female,39 years,finance,Jr Analyst,05/20/2019,51135,10%,"Project B, Project Z",,No,Yes,1,,"SQL, Tableau"
+109.0,Charlie Brown,male,28,,manager,05/20/2019,45324,20%,Project Y,4.4,No,Pending,19,5 days,"SQL, Tableau"
+156.0,alice smith,,50 years,IT,Sr Analyst,2020-01-15,71500,0.15,Project X,,Y,No,12,,Excel;Python
+170.0,david miller,M,,hr,Intern,05/20/2019,,20%,Project A,,N/A,Pending,,4 days,Excel;Python
+112.0, Grace Lee ,female,34 years,finance,manager,05/20/2019,78453,16%,"Project X, Project Z",1.3,N/A,,,1 days,R;PowerBI
+106.0,Charlie Brown,,,Finance;Finance,senior analyst,20-May-2019,56890,0.07,"Project C, Project D",,Y,,0,5 days,"python, excel"
+183.0,grace lee,female,55 years,Sales,Manager,2019-05-20,,14%,"Project A, Project D",,No,No,8,4,
+169.0, IAN CLARK ,F,25,Operations,Intern,2020-01-15,75068,0.11,Project A,,No,,13,1 days,"SQL, Tableau"
+101.0,ian clark,,,finance;Finance,Manager,20-May-2019,,14%,"Project Y, Project D",4.2,No,Pending,,,R;PowerBI
+111.0, Frank Wilson ,male,54,hr,Sr Analyst,20-May-2019,100761,,"Project Y, Project Z",2.2,N/A,Yes,9,5 days,"SQL, Tableau"
+196.0,Emily Davis,F,55,,Intern,2019-05-20,,0.06,"Project X, Project D",3.6,,Yes,,0,R;PowerBI
+130.0,John Doe,male,33,IT,manager,01/15/2020,45923,,"Project A, Project D",,No,,,5,
+121.0,GRACE LEE,,25,IT,Sr Analyst,20-May-2019,,,Project X,,Yes,,,,"SQL, Tableau"
+152.0, Emily Davis ,F,25 years,Operations,senior analyst,2020-01-15,,16%,"Project A, Project Z",5.0,,,8,1,R;PowerBI
+162.0,Bob Johnson,,39 years,Finance;Finance,manager,2019-05-20,71971,0.12,Project A,,Yes,Pending,8,2,"python, excel"
+161.0,Grace Lee,female,54 years,Finance;Finance,Intern,15-Jan-2020,,0.19,Project Y,4.7,Yes,Yes,,3 days,
+127.0, Charlie Brown ,female,29,HR;Finance,manager,01/15/2020,,,Project A,3.4,No,No,,,Excel;Python
+151.0,Emily Davis,M,,Finance;HR,senior analyst,2019-05-20,,,Project B,3.1,Yes,Pending,8,1 days,R;PowerBI
+107.0,David Miller,female,33 years,IT;Finance,Manager,2020-01-15,105199,,"Project A, Project D",,No,Yes,13,,"SQL, Tableau"
+121.0, Emily Davis ,f,57 years,Operations;HR,Manager,20-May-2019,,,Project A,1.5,Yes,Pending,,,
+148.0,David Miller,female,32 years,Operations,Jr Analyst,2020-01-15,74392,,"Project C, Project D",1.1,Y,Yes,,5 days,Excel;Python
+100.0,Ian Clark,f,27,IT;IT,Manager,05/20/2019,92781,0.11,"Project Y, Project D",1.9,N/A,No,,2 days,Excel;Python
+149.0,david miller,female,46,HR;Finance,Sr Analyst,20-May-2019,48274,,Project A,,,Yes,,2 days,"SQL, Tableau"
+133.0,HANNAH MARTIN,f,58,hr,senior analyst,2019-05-20,70380,,"Project A, Project D",1.8,,Pending,3,,"SQL, Tableau"
+200.0,John Doe,f,35 years,,Manager,01/15/2020,82642,,"Project Y, Project D",,Yes,No,7,,"python, excel"
+200.0, HANNAH MARTIN ,,48,Operations,manager,2019-05-20,,,Project X,,Y,Pending,10,,"SQL, Tableau"
+158.0,CHARLIE BROWN,female,22,IT,Intern,05/20/2019,,14%,"Project A, Project D",,No,Pending,,,
+136.0,ALICE SMITH,f,33,IT,senior analyst,05/20/2019,37213,,Project Y,,,,,,
+154.0,charlie brown,M,,,Manager,2020-01-15,106471,,Project C,,N/A,Yes,,,"SQL, Tableau"
+189.0,Frank Wilson,male,39 years,finance,Sr Analyst,2020-01-15,66428,,"Project X, Project Z",4.8,No,Pending,,,Excel;Python
+193.0,grace lee,,44 years,Operations,Jr Analyst,15-Jan-2020,32955,,Project C,,No,Yes,,5 days,Excel;Python
+200.0,Hannah Martin,f,35 years,,Jr Analyst,15-Jan-2020,,0.19,Project C,1.7,,,15,,"SQL, Tableau"
+171.0,CHARLIE BROWN,f,,Finance,Intern,20-May-2019,118744,,"Project Y, Project D",,N/A,Yes,,1 days,"SQL, Tableau"
+184.0, grace lee ,,47,hr,Intern,05/20/2019,,,"Project A, Project D",,,Pending,,2,"python, excel"
+191.0,Grace Lee,M,,IT,Intern,2020-01-15,,15%,"Project B, Project D",,Y,No,14,4 days,"SQL, Tableau"
+162.0, grace lee ,M,,HR,senior analyst,15-Jan-2020,71649,20%,Project B,4.3,Y,Yes,,4 days,"SQL, Tableau"
+119.0,John Doe,F,60 years,IT,Intern,05/20/2019,,0.12,Project B,,,Yes,6,0,R;PowerBI
+124.0,alice smith,,28 years,,Intern,15-Jan-2020,82108,0.18,"Project C, Project Z",,,No,,,
+137.0, david miller ,,43 years,,Sr Analyst,2019-05-20,,17%,Project A,2.5,No,No,12,0 days,"python, excel"
+127.0,Charlie Brown,male,39 years,;Finance,Sr Analyst,20-May-2019,,0.13,"Project C, Project D",2.8,Yes,,18,3,
+107.0, Frank Wilson ,F,41,Operations,Sr Analyst,01/15/2020,,9%,"Project X, Project Z",,N/A,No,,5 days,R;PowerBI
+174.0,Charlie Brown,,55,HR,Intern,2019-05-20,,0.1,Project X,,N/A,No,,5 days,
+194.0,David Miller,f,,Sales,Manager,20-May-2019,,0.06,Project B,,N/A,Pending,2,,"python, excel"
+169.0,Ian Clark,M,,finance,Intern,20-May-2019,103535,10%,Project A,2.6,Yes,,,,"SQL, Tableau"
+107.0,emily davis,f,53 years,IT,Jr Analyst,2019-05-20,,0.11,Project C,,,No,,,R;PowerBI
+195.0,Grace Lee,,48 years,finance,Sr Analyst,15-Jan-2020,,0.11,Project B,2.7,Yes,,,1,"python, excel"
+,Hannah Martin,,,Sales;Finance,manager,15-Jan-2020,67831,13%,Project Y,2.4,No,No,14,3 days,"python, excel"
+107.0,hannah martin,,34 years,Sales,Intern,05/20/2019,,,Project Y,,,,4,,"SQL, Tableau"
+106.0,EMILY DAVIS,female,,Operations;HR,Manager,01/15/2020,48293,,Project X,,Y,Pending,,2,
+174.0,Frank Wilson,male,,Operations,Intern,01/15/2020,48827,0.19,Project C,,Yes,No,,4 days,Excel;Python
+161.0,hannah martin,female,,Finance;Finance,manager,20-May-2019,,,"Project X, Project D",,Yes,No,13,,"python, excel"
+164.0,Emily Davis,M,33 years,Finance,manager,05/20/2019,,18%,"Project A, Project D",,N/A,Yes,,4,"python, excel"
+167.0,EMILY DAVIS,M,28,;HR,senior analyst,01/15/2020,,18%,"Project Y, Project Z",4.6,No,No,,,"SQL, Tableau"
+120.0,grace lee,M,38,;IT,Manager,2019-05-20,41593,,"Project A, Project Z",2.5,Yes,Yes,17,2,Excel;Python
+107.0,david miller,male,43,IT;HR,manager,05/20/2019,,,"Project C, Project D",3.1,,,12,0,Excel;Python
+165.0,David Miller,F,,HR;IT,Manager,01/15/2020,84331,0.1,"Project C, Project Z",3.2,,Yes,,,Excel;Python
+110.0,DAVID MILLER,f,48 years,Operations;HR,Sr Analyst,2020-01-15,,,"Project B, Project D",,Y,,6,1,R;PowerBI
+123.0, Charlie Brown ,,,,senior analyst,20-May-2019,104437,11%,"Project A, Project Z",,Yes,No,,1,"python, excel"
+108.0,ALICE SMITH,f,40,Sales;IT,Jr Analyst,2020-01-15,56117,16%,Project Y,,No,No,5,,Excel;Python
+176.0,CHARLIE BROWN,f,,;Finance,manager,20-May-2019,,0.13,"Project X, Project Z",1.8,Y,Yes,,3,
+108.0,emily davis,f,,Operations,Intern,20-May-2019,,0.06,Project Y,,Y,,11,2,R;PowerBI
+186.0,Alice Smith,,26,,senior analyst,2019-05-20,,14%,"Project Y, Project D",,N/A,Pending,,,Excel;Python
+130.0, HANNAH MARTIN ,f,,,senior analyst,15-Jan-2020,,0.06,"Project A, Project Z",2.7,Y,,,3 days,R;PowerBI
+151.0, Bob Johnson ,F,55 years,HR,senior analyst,01/15/2020,,,"Project B, Project Z",,Yes,No,20,5 days,Excel;Python
+115.0,Charlie Brown,female,48,IT;Finance,senior analyst,2020-01-15,59428,,Project X,3.4,No,Pending,,1,Excel;Python
+172.0,CHARLIE BROWN,male,34 years,Finance,Intern,01/15/2020,30320,,"Project C, Project D",,Y,,,2 days,"python, excel"
+131.0,GRACE LEE,female,58 years,IT;Finance,Sr Analyst,20-May-2019,,,"Project B, Project Z",1.1,Yes,No,,5 days,
+174.0,David Miller,female,,finance,Manager,2020-01-15,,0.1,Project A,,,Pending,,2,"python, excel"
+176.0,IAN CLARK,,27 years,Finance,Jr Analyst,2020-01-15,,,Project C,,,No,,2 days,
+105.0,Hannah Martin,f,33 years,Sales,Jr Analyst,05/20/2019,84677,13%,Project B,1.1,No,Pending,5,1 days,Excel;Python
+179.0,IAN CLARK,,22 years,;IT,Intern,20-May-2019,94472,0.18,Project X,2.3,,,,5,
+110.0,DAVID MILLER,f,39,Sales,Manager,01/15/2020,33728,,"Project B, Project Z",1.3,,,,2,"python, excel"
+153.0,ALICE SMITH,F,32 years,Finance,Jr Analyst,2020-01-15,,,Project X,,,,14,4,"python, excel"
+184.0,Charlie Brown,male,,Sales,Intern,01/15/2020,,0.1,Project C,,Y,Pending,,,R;PowerBI
+174.0, David Miller ,M,49 years,Operations,senior analyst,2020-01-15,,,Project Y,,N/A,,,5 days,"python, excel"
+172.0,CHARLIE BROWN,female,52 years,IT,Sr Analyst,15-Jan-2020,,9%,"Project B, Project D",,,Pending,,0,R;PowerBI
+166.0,EMILY DAVIS,M,,HR,senior analyst,2019-05-20,,20%,"Project C, Project Z",3.0,Yes,Yes,6,4,"python, excel"
+140.0,bob johnson,male,34,Finance;HR,senior analyst,05/20/2019,,,Project A,,,No,19,3 days,R;PowerBI
+133.0,David Miller,female,42,Operations;IT,Sr Analyst,20-May-2019,97177,,Project A,3.0,Yes,Yes,4,,"python, excel"
+126.0, john doe ,M,,Sales,manager,2019-05-20,64018,,"Project A, Project D",4.4,,Pending,,2,R;PowerBI
+185.0,Hannah Martin,M,,Sales,Jr Analyst,05/20/2019,106238,,Project A,1.1,N/A,,,,"python, excel"
+191.0, BOB JOHNSON ,,44,hr;Finance,Sr Analyst,01/15/2020,,0.15,Project Y,4.3,Y,,19,,
+140.0, david miller ,F,,Finance,Manager,05/20/2019,90429,0.17,Project A,,Yes,Pending,,1,"SQL, Tableau"
+130.0,JOHN DOE,male,59,Sales;IT,Manager,2019-05-20,76843,,Project X,,Yes,No,,,"SQL, Tableau"
+133.0,John Doe,male,24 years,,Manager,2019-05-20,,0.07,"Project B, Project D",1.9,Y,,,2,
+150.0, HANNAH MARTIN ,male,,IT,manager,2019-05-20,,11%,"Project X, Project D",,N/A,Yes,17,3,"SQL, Tableau"
+116.0,David Miller,female,,Finance;Finance,Sr Analyst,2019-05-20,,,Project A,4.3,Y,No,,1 days,Excel;Python
+185.0,BOB JOHNSON,F,,Finance,manager,20-May-2019,,,Project Y,4.7,No,,11,0,"python, excel"
+182.0,grace lee,f,43 years,hr,Manager,15-Jan-2020,68228,14%,Project B,2.0,Y,Pending,,0 days,R;PowerBI
+138.0,Alice Smith,female,44,HR;HR,senior analyst,05/20/2019,97353,0.2,Project Y,,Yes,Yes,,0 days,R;PowerBI
+158.0,John Doe,male,47,IT,senior analyst,15-Jan-2020,112317,,Project A,,No,Pending,,,R;PowerBI
+140.0, Ian Clark ,female,36,Finance;IT,manager,2019-05-20,42387,,Project B,,No,,2,4,"python, excel"
+196.0,David Miller,M,,hr,Intern,15-Jan-2020,,0.07,Project Y,2.1,,No,,,R;PowerBI
+109.0,GRACE LEE,female,29 years,hr,Manager,15-Jan-2020,,20%,"Project B, Project D",,Y,,14,4 days,R;PowerBI
+101.0,GRACE LEE,,,,Manager,20-May-2019,,10%,"Project Y, Project D",,Yes,,,,R;PowerBI
+158.0,Grace Lee,,,HR,Manager,2019-05-20,,,"Project X, Project D",,No,,7,3,R;PowerBI
+179.0,Emily Davis,female,25,hr,Manager,01/15/2020,48837,,Project C,3.5,N/A,No,14,5,"SQL, Tableau"
+172.0,Bob Johnson,male,28,Operations,Sr Analyst,2019-05-20,,,Project C,3.1,Yes,Yes,,1 days,"SQL, Tableau"
+112.0,john doe,M,48 years,,manager,15-Jan-2020,,,Project B,,,Pending,5,1 days,R;PowerBI
+109.0,David Miller,male,,Operations,manager,01/15/2020,,0.15,"Project A, Project Z",,,Pending,14,1,R;PowerBI
+168.0,GRACE LEE,M,,;IT,Sr Analyst,05/20/2019,51368,,"Project C, Project D",,Yes,No,0,0 days,Excel;Python
+127.0, Alice Smith ,,,hr,senior analyst,15-Jan-2020,58557,0.18,"Project Y, Project Z",,Y,,,,"SQL, Tableau"
+164.0,Alice Smith,M,41 years,;HR,manager,15-Jan-2020,95979,0.18,Project Y,4.1,Yes,Yes,12,0,"python, excel"
+133.0,frank wilson,M,55 years,IT;IT,Jr Analyst,2020-01-15,54696,,Project A,2.4,N/A,Pending,,5 days,R;PowerBI
+116.0,Grace Lee,male,30 years,;Finance,manager,2020-01-15,,,Project Y,3.6,,Pending,17,,"SQL, Tableau"
+144.0, ALICE SMITH ,,,hr,Intern,05/20/2019,40013,6%,"Project A, Project Z",3.8,,Pending,19,,R;PowerBI
+108.0,IAN CLARK,M,29,finance,manager,2020-01-15,47200,0.09,"Project C, Project D",4.9,Yes,,,,"python, excel"
+131.0,JOHN DOE,,28,HR,senior analyst,15-Jan-2020,,0.1,"Project A, Project D",1.8,,,,2 days,Excel;Python
+147.0,BOB JOHNSON,F,34 years,hr,Sr Analyst,05/20/2019,,,"Project X, Project D",,N/A,,12,1,R;PowerBI
+136.0,Bob Johnson,,34 years,Sales,senior analyst,2019-05-20,,5%,"Project X, Project D",1.8,No,,,5 days,"SQL, Tableau"
+120.0,Ian Clark,F,48,Finance,senior analyst,05/20/2019,,18%,Project Y,,Y,,,3 days,"SQL, Tableau"
+156.0,DAVID MILLER,f,57 years,finance;HR,Sr Analyst,2019-05-20,,0.07,"Project B, Project Z",,Yes,Pending,13,0,
+169.0,alice smith,F,52 years,,Intern,15-Jan-2020,33769,7%,"Project A, Project Z",3.8,Yes,Yes,3,0 days,"SQL, Tableau"
+190.0,Charlie Brown,f,37,IT,Jr Analyst,2020-01-15,59144,5%,"Project B, Project Z",4.4,Yes,Pending,8,,"SQL, Tableau"
+138.0,Alice Smith,F,,hr,Sr Analyst,15-Jan-2020,48659,15%,"Project C, Project D",4.7,N/A,,,2 days,Excel;Python
+178.0,HANNAH MARTIN,male,53,hr;HR,senior analyst,05/20/2019,70295,0.12,Project Y,,,No,,,Excel;Python
+183.0,Frank Wilson,f,,Finance;IT,Sr Analyst,2019-05-20,57504,,Project A,4.9,No,Pending,4,0,R;PowerBI
+167.0,Ian Clark,female,,IT,Intern,2019-05-20,,,"Project X, Project Z",4.1,Y,Yes,15,0 days,R;PowerBI
+101.0, Ian Clark ,female,51 years,Sales;IT,manager,05/20/2019,44643,,"Project X, Project D",,N/A,Pending,8,,"SQL, Tableau"
+185.0,Ian Clark,F,38,Finance;HR,manager,20-May-2019,,19%,"Project A, Project D",,N/A,,10,,"python, excel"
+170.0,Charlie Brown,female,28,finance,Jr Analyst,2019-05-20,86524,0.19,"Project B, Project Z",4.8,Y,,,2,"python, excel"
+138.0,Hannah Martin,,,Operations;IT,Jr Analyst,20-May-2019,55736,,"Project A, Project D",1.6,No,No,,4,"SQL, Tableau"
+184.0,FRANK WILSON,F,,Finance;IT,Sr Analyst,15-Jan-2020,34298,7%,Project X,4.0,Yes,No,,2,Excel;Python
+113.0,Grace Lee,F,29,,Sr Analyst,2019-05-20,91483,,"Project C, Project Z",,Yes,No,,2,R;PowerBI
+117.0,Grace Lee,,,Finance,Sr Analyst,20-May-2019,63162,,"Project Y, Project D",1.7,Yes,Yes,,,R;PowerBI
+133.0,DAVID MILLER,,43 years,HR,Manager,2019-05-20,,0.13,Project C,,No,Pending,,4,"SQL, Tableau"
+114.0,Ian Clark,female,,finance,senior analyst,20-May-2019,117501,,Project X,2.4,,No,19,,"python, excel"
+113.0,Frank Wilson,female,45 years,HR,senior analyst,2019-05-20,42648,,"Project X, Project D",4.7,,Yes,4,5,
+195.0,David Miller,M,29 years,Operations,Intern,2019-05-20,108878,0.12,"Project A, Project Z",2.4,N/A,Yes,,0,"python, excel"
+170.0,IAN CLARK,,51 years,Finance,Jr Analyst,01/15/2020,107018,,"Project Y, Project D",,Yes,,0,5 days,"SQL, Tableau"
+119.0, Ian Clark ,f,52 years,Finance,manager,15-Jan-2020,,,Project A,3.0,,Yes,,0,"SQL, Tableau"
+134.0,john doe,F,32,Finance;IT,Intern,15-Jan-2020,33835,0.12,"Project C, Project D",,N/A,Pending,,,R;PowerBI
+136.0,Ian Clark,female,25,finance;HR,Intern,2019-05-20,,11%,"Project X, Project Z",,Yes,Pending,,5,
+177.0,ALICE SMITH,f,59 years,Sales,Intern,20-May-2019,,7%,"Project X, Project Z",,N/A,Yes,,0,R;PowerBI
+126.0,Charlie Brown,female,58,IT,manager,2020-01-15,76163,0.15,Project B,1.8,N/A,Yes,9,0 days,R;PowerBI
+191.0,Charlie Brown,female,,finance,manager,20-May-2019,95619,,"Project Y, Project Z",,No,No,4,,R;PowerBI
+143.0, david miller ,M,30 years,hr,manager,2019-05-20,96179,19%,Project A,,N/A,Pending,,1 days,"SQL, Tableau"
+126.0,Alice Smith,,29 years,finance,senior analyst,05/20/2019,42989,0.06,Project B,3.1,N/A,No,,2 days,R;PowerBI
+187.0, BOB JOHNSON ,F,50,IT,Manager,15-Jan-2020,99315,,"Project X, Project D",3.7,,No,20,0,Excel;Python
+181.0,CHARLIE BROWN,F,38,finance,Intern,05/20/2019,,,Project Y,4.8,No,,0,,"python, excel"
+133.0,Bob Johnson,male,,IT,manager,20-May-2019,52514,0.07,Project B,1.5,Yes,No,,2 days,Excel;Python
+164.0,Hannah Martin,,,,Jr Analyst,01/15/2020,42934,15%,Project Y,3.3,N/A,Pending,4,,Excel;Python
+162.0,Alice Smith,M,,hr,Sr Analyst,2019-05-20,,,"Project B, Project D",1.3,Yes,No,,5,"python, excel"
+132.0, Bob Johnson ,f,,hr,Sr Analyst,20-May-2019,78033,6%,"Project X, Project D",,,Pending,,5 days,R;PowerBI
+106.0,John Doe,M,52 years,finance,Jr Analyst,20-May-2019,87627,11%,"Project B, Project D",2.6,Y,Pending,15,3,
+111.0,Frank Wilson,f,,finance,Jr Analyst,01/15/2020,,,Project A,,Y,,11,3 days,"python, excel"
+181.0,grace lee,F,,hr,Jr Analyst,2020-01-15,,0.15,"Project X, Project Z",3.0,No,No,,1 days,"SQL, Tableau"
+154.0,IAN CLARK,male,54 years,Sales,Manager,2020-01-15,58085,,"Project B, Project Z",,Y,No,,2,"SQL, Tableau"
+135.0,Grace Lee,male,53,Operations,Sr Analyst,20-May-2019,83422,0.14,"Project X, Project Z",,N/A,Yes,,5 days,
+105.0,David Miller,F,53,,Manager,2019-05-20,71193,0.07,"Project A, Project Z",3.9,Yes,Yes,20,5 days,R;PowerBI
+100.0,JOHN DOE,female,43,finance;IT,manager,05/20/2019,91066,6%,"Project C, Project Z",,No,Yes,,,"SQL, Tableau"
+142.0, CHARLIE BROWN ,M,,Operations,Sr Analyst,01/15/2020,98121,0.15,"Project X, Project D",4.0,No,Yes,,,R;PowerBI
+198.0,David Miller,male,46,IT,Jr Analyst,2020-01-15,,,"Project B, Project D",1.7,Yes,,12,0,R;PowerBI
+116.0,DAVID MILLER,,51 years,Operations;IT,Manager,20-May-2019,67784,0.17,"Project C, Project Z",,,,,3,Excel;Python
+181.0, Grace Lee ,female,58,Sales,senior analyst,2019-05-20,,11%,Project C,4.6,Yes,Yes,,4,"python, excel"
+133.0,ALICE SMITH,f,50 years,HR,Sr Analyst,05/20/2019,94711,0.05,"Project A, Project Z",,No,No,6,,"SQL, Tableau"
+120.0,Charlie Brown,,,Operations,Intern,2020-01-15,,5%,"Project X, Project Z",2.7,N/A,Pending,,5 days,"python, excel"
+194.0,David Miller,male,28 years,IT;Finance,Jr Analyst,15-Jan-2020,,,"Project A, Project D",,,Pending,19,4 days,"python, excel"
+156.0,IAN CLARK,f,,hr;Finance,Jr Analyst,05/20/2019,88190,16%,Project Y,4.5,,Yes,20,4 days,
+170.0,Charlie Brown,female,57,hr,manager,05/20/2019,,11%,"Project B, Project Z",3.7,Yes,No,,0 days,R;PowerBI
+190.0,Frank Wilson,f,,Sales;Finance,Manager,20-May-2019,,,Project Y,,Yes,No,14,,
+154.0,ALICE SMITH,female,,Finance,manager,01/15/2020,54744,,"Project C, Project Z",,No,Yes,16,3,Excel;Python
+171.0,Hannah Martin,f,43 years,Sales,senior analyst,2019-05-20,,12%,Project B,,Yes,Pending,,0 days,
+101.0,Charlie Brown,M,36 years,hr,Intern,20-May-2019,53500,10%,Project A,1.4,Yes,Yes,,3,"SQL, Tableau"
+114.0,Bob Johnson,male,,IT,senior analyst,2020-01-15,,5%,Project B,,Yes,,20,0 days,
+109.0,David Miller,male,,Finance,manager,20-May-2019,118092,17%,"Project Y, Project D",4.3,No,,10,,"python, excel"
+,BOB JOHNSON,female,45,Operations;HR,Sr Analyst,20-May-2019,,0.19,Project B,4.0,N/A,No,8,1 days,"python, excel"
+119.0,ALICE SMITH,f,28,finance;IT,Sr Analyst,2020-01-15,98506,0.09,"Project A, Project Z",,No,Pending,,2 days,"python, excel"
+169.0,JOHN DOE,F,,hr,manager,15-Jan-2020,45626,,Project C,,Y,Yes,18,1 days,"SQL, Tableau"
+104.0, bob johnson ,,,finance,Intern,2019-05-20,,18%,Project B,,Yes,Yes,,,"python, excel"
+147.0,David Miller,,45,Finance,Intern,05/20/2019,107405,8%,"Project B, Project D",,Y,Yes,5,4,
+174.0,Ian Clark,male,32,Sales,manager,05/20/2019,52114,0.08,Project X,2.5,Y,,,5,R;PowerBI
+170.0,ian clark,f,28 years,HR,Sr Analyst,05/20/2019,77672,0.1,Project C,,,Yes,5,4,Excel;Python
+118.0,David Miller,f,34,finance;HR,Manager,05/20/2019,74385,,Project Y,,No,Yes,,2,Excel;Python
+155.0,Grace Lee,M,35 years,HR,Intern,2020-01-15,,0.18,"Project C, Project D",1.5,Y,No,,2,R;PowerBI
+116.0,Alice Smith,,34,IT,Intern,05/20/2019,46090,9%,"Project X, Project Z",,No,Yes,2,0 days,"python, excel"
+105.0,GRACE LEE,F,,Sales;HR,manager,05/20/2019,,,Project Y,4.4,,,2,1 days,R;PowerBI
+139.0,David Miller,male,29 years,finance,Intern,20-May-2019,,20%,Project Y,2.4,N/A,No,,4,"SQL, Tableau"
+146.0, Frank Wilson ,M,,Finance;Finance,Jr Analyst,20-May-2019,,,Project B,,N/A,Pending,1,1,"SQL, Tableau"
+105.0,David Miller,F,30,finance;Finance,Manager,01/15/2020,,0.08,"Project B, Project D",2.4,Yes,Pending,7,,"python, excel"
+145.0,Hannah Martin,male,,Finance,manager,20-May-2019,,0.12,Project B,,Yes,,,0 days,"SQL, Tableau"
+126.0,HANNAH MARTIN,M,59 years,HR,Jr Analyst,2020-01-15,,0.1,"Project X, Project D",,Yes,Yes,14,,"python, excel"
+187.0,Grace Lee,F,,Operations;HR,Jr Analyst,01/15/2020,,0.16,"Project B, Project Z",,Y,Pending,17,,R;PowerBI
+131.0, grace lee ,male,,finance,manager,20-May-2019,44160,0.09,Project Y,4.9,,Pending,10,,"python, excel"
+185.0,ALICE SMITH,,28 years,IT,manager,2020-01-15,,6%,Project X,,No,,,2,
+113.0,IAN CLARK,F,60 years,,manager,2019-05-20,95178,0.18,"Project B, Project D",,N/A,No,,0 days,"python, excel"
