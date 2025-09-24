@@ -27,7 +27,7 @@ The repository contains the following folders:
 
 ## 📊 Features / Analysis Conducted
 
-### **1. Skills Distribution**
+### [1. Skills Distribution](./Skill_Distribution.ipynb)
 - Cleaned skills data for readability and saved as Excel.  
 - Counted overall skill frequencies across employees.  
 - **Bar Plot:** Top skills among employees.  
