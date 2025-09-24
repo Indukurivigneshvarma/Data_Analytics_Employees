@@ -18,9 +18,9 @@ The repository contains the following folders:
   - `clean_employee_dataset.csv` → **cleaned dataset** (machine-readable).  
   - `clean_employee_dataset_readable.xlsx` → **cleaned dataset** (Excel-friendly, readable format).
 ### **3. Python_files**
-- Contains Python scripts and notebooks for **data analysis and visualization**.
+- Contains Jupyter notebooks for **data analysis and visualization**.
 - Includes:  
-  - `.py` files with **data cleaning, analysis, and visualization code**  
+  - `.ipynb` files with **data cleaning, analysis, and visualization code**  
   - Image files generated from plots (**histograms, boxplots, scatter plots, etc.**)
 
 ---
