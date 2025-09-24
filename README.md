@@ -27,7 +27,7 @@ The repository contains the following folders:
 
 ## 📊 Features / Analysis Conducted
 
-### [1. Skills Distribution](./Skill_Distribution.ipynb)
+### [1. Skills Distribution](./Python_files/Skill_Distribution.ipynb)
 - Cleaned skills data for readability and saved as Excel.  
 - Counted overall skill frequencies across employees.  
 - **Bar Plot:** Top skills among employees.  
@@ -36,28 +36,28 @@ The repository contains the following folders:
 
 ---
 
-### **2. Salary Insights**
+### [2. Salary Insights](./Python_files/Salary_Insights.ipynb)
 - **Bar Plot:** Average salary by **department** and **designation**.  
 - **Box Plot:** Salary spread across departments to identify variations and outliers.  
 - Showed compensation trends across the company.
 
 ---
 
-### **3. Age Distribution**
+### [3. Age Distribution](./Python_files/Age_Distribution.ipynb)
 - Visualized employee age spread using **histograms** and **KDE plots**.  
 - Compared **male vs female** distributions.  
 - Gave demographic insights into the employee base.
 
 ---
 
-### **4. Training & Promotion Relationship**
+### [4. Training & Promotion Relationship](./Python_files/Training_Promotion.ipynb)
 - Analyzed if **completing training** increases chances of **promotion eligibility**.  
 - Used a **stacked bar chart** with training status (Yes / No / Pending) vs promotion status (Eligible / Not Eligible).  
 - Showed the link between training completion and career growth.
 
 ---
 
-### **5. Performance vs Salary**
+### [5. Performance vs Salary](./Python_files/Performance_Salary.ipynb)
 - Cleaned and standardized the **performance score** column.  
 - Removed invalid salaries (e.g., 0).  
 - Plotted a **scatter plot with regression trendline** to test correlation between **performance score** and **salary**.  
