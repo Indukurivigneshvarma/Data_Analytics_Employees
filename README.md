@@ -8,16 +8,16 @@ A **comprehensive data analytics project** analyzing employee datasets using **M
 
 The repository contains the following folders:
 
-### **1. Mysql_files**
+### [Mysql_files](./Mysql_files)
 - Contains SQL scripts used for **cleaning and preparing the employee dataset**.
 - Includes queries for handling **missing values, formatting, and filtering**.
 
-### **2. Excell_sheets**
+### [Excell_sheets](./Excell_sheets)
 - Contains dataset files:  
   - `messy_employee_dataset.csv` → the **original raw dataset**.  
   - `clean_employee_dataset.csv` → **cleaned dataset** (machine-readable).  
   - `clean_employee_dataset_readable.xlsx` → **cleaned dataset** (Excel-friendly, readable format).
-### **3. Python_files**
+### [Excell_sheets](./Excell_sheets)
 - Contains Jupyter notebooks for **data analysis and visualization**.
 - Includes:  
   - `.ipynb` files with **data cleaning, analysis, and visualization code**  
