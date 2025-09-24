@@ -13,10 +13,10 @@ The repository contains the following folders:
 - Includes queries for handling **missing values, formatting, and filtering**.
 
 ### **2. Excell_sheets**
-- Contains Excel files:  
-  - `messy_employee_dataset.xlsx` → the **original raw dataset**  
-  - `clean_employee_dataset.xlsx` → **cleaned dataset** ready for analysis
-
+- Contains dataset files:  
+  - `messy_employee_dataset.csv` → the **original raw dataset**.  
+  - `clean_employee_dataset.csv` → **cleaned dataset** (machine-readable).  
+  - `clean_employee_dataset_readable.xlsx` → **cleaned dataset** (Excel-friendly, readable format).
 ### **3. Python_files**
 - Contains Python scripts and notebooks for **data analysis and visualization**.
 - Includes:  
@@ -25,16 +25,43 @@ The repository contains the following folders:
 
 ---
 
-## **Features / Analysis Conducted**
+## 📊 Features / Analysis Conducted
 
-### **1. Age Distribution Analysis**
-- Histogram and KDE plots of **employee ages**, split by **gender**.
+### **1. Skills Distribution**
+- Cleaned skills data for readability and saved as Excel.  
+- Counted overall skill frequencies across employees.  
+- **Bar Plot:** Top skills among employees.  
+- **Stacked Bar Plot:** Skill specialization across departments.  
+- Revealed the **most in-demand skills** and department-wise expertise.
 
-### **2. Training & Promotion Relationship**
-- Stacked bar chart analysis showing if **completing training** affects **promotion eligibility**.
+---
 
-### **3. Performance vs Salary Correlation**
-- Scatter plot with **trendline** to analyze how **performance score** correlates with **salary**.
+### **2. Salary Insights**
+- **Bar Plot:** Average salary by **department** and **designation**.  
+- **Box Plot:** Salary spread across departments to identify variations and outliers.  
+- Showed compensation trends across the company.
+
+---
+
+### **3. Age Distribution**
+- Visualized employee age spread using **histograms** and **KDE plots**.  
+- Compared **male vs female** distributions.  
+- Gave demographic insights into the employee base.
+
+---
+
+### **4. Training & Promotion Relationship**
+- Analyzed if **completing training** increases chances of **promotion eligibility**.  
+- Used a **stacked bar chart** with training status (Yes / No / Pending) vs promotion status (Eligible / Not Eligible).  
+- Showed the link between training completion and career growth.
+
+---
+
+### **5. Performance vs Salary**
+- Cleaned and standardized the **performance score** column.  
+- Removed invalid salaries (e.g., 0).  
+- Plotted a **scatter plot with regression trendline** to test correlation between **performance score** and **salary**.  
+- Helped check if better performers earn more.
 
 ---
 
