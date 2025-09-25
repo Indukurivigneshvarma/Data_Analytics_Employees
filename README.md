@@ -17,7 +17,7 @@ The repository contains the following folders:
   - `messy_employee_dataset.csv` → the **original raw dataset**.  
   - `clean_employee_dataset.csv` → **cleaned dataset** (machine-readable).  
   - `clean_employee_dataset_readable.xlsx` → **cleaned dataset** (Excel-friendly, readable format).
-### [Excell_sheets](./Excell_sheets)
+### [Python_Files](./Python_files)
 - Contains Jupyter notebooks for **data analysis and visualization**.
 - Includes:  
   - `.ipynb` files with **data cleaning, analysis, and visualization code**  
